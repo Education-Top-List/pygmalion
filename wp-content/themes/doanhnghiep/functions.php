@@ -72,6 +72,31 @@ function featured_images_setup(){
       'after_title' => '</h3>',
     ));
       register_sidebar(array(
+      'name' => 'Fanpage Facebook',
+      'id' => 'fanpage_fb',
+      'before_widget' => '<div id="%1$s" class="widget %2$s widget_area">',
+      'after_widget' => "</div>",
+      'before_title' => '<h3 class="widget-title">',
+      'after_title' => '</h3>',
+    ));
+         register_sidebar(array(
+      'name' => 'Image Cooperate Index',
+      'id' => 'cooperate',
+      'before_widget' => '<div id="%1$s" class="widget %2$s widget_area">',
+      'after_widget' => "</div>",
+      'before_title' => '<h3 class="widget-title">',
+      'after_title' => '</h3>',
+    ));
+            register_sidebar(array(
+      'name' => 'Map Index',
+      'id' => 'map_index',
+      'before_widget' => '<div id="%1$s" class="widget %2$s widget_area">',
+      'after_widget' => "</div>",
+      'before_title' => '<h3 class="widget-title">',
+      'after_title' => '</h3>',
+    ));
+
+      register_sidebar(array(
     'name' => 'Footer area 1',
     'id' => 'footer1',
     'before_title' => '<h3 class="widget-title">',
